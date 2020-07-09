@@ -32,10 +32,15 @@
   display: block;
   padding: 1em;
   color: white;
+  font-family: "Fondamento", cursive;
 }
 
 .navigation a:hover {
   background: rgb(255, 162, 75);
+}
+
+.brand {
+  font-family: "Fondamento", cursive;
 }
 
 /* ================================ Body ===============================================*/
@@ -67,7 +72,7 @@ p {
 }
 
 .orange-divider {
-  height: 1rem;
+  height: 0.2rem;
   margin: 1rem 4rem 1rem 4rem;
   background-color: rgb(221, 112, 9);
 }
@@ -81,12 +86,22 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 4rem;
+}
+
+.secondary-stat-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 4rem;
 }
 
 .stat-box {
   border: solid 0.2rem rgb(221, 112, 9);
+  background: rgb(255, 162, 75);
   width: 6rem;
   height: 6rem;
+  margin: 0px 2px 0px 2px;
 }
 
 .stat-name {
@@ -94,6 +109,14 @@ p {
   font-size: 2rem;
   text-align: center;
   margin: 0;
+}
+
+.sec-name {
+  font-family: "Fondamento", cursive;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .stat-value {
@@ -107,10 +130,12 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 4rem;
 }
 
 .skill-box {
-  width: 20%;
+  margin: 0.2rem 1rem 0.2rem 1rem;
+  flex-grow: 1;
 }
 
 ul {
@@ -121,4 +146,37 @@ ul {
 
 li {
   text-align: left;
+}
+
+.half-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lower-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+}
+
+#dragon-icon {
+  width: 12rem;
+}
+
+/* -------------------------------------- */
+
+.character-list {
+  margin-left: 6rem;
+}
+
+.character-list-item {
+  padding: 1rem;
+}
+
+.character-link {
+  text-decoration: none;
+  font-family: "Fondamento", cursive;
+  font-size: 1.5rem;
+  color: black;
 }

@@ -18,81 +18,115 @@
 
 <div class="orange-divider"></div>
 
-<div class="stat-row">
-  <div class="stat-box">
-    <p class="stat-name">Str</p>
-    <p class="stat-value"><%=stats.str%></p>
+<div class="half-row">
+  <div class="stat-row">
+    <div class="stat-box">
+      <p class="stat-name">Str</p>
+      <p class="stat-value"><%=stats.str%></p>
+    </div>
+    <div class="stat-box">
+      <p class="stat-name">Dex</p>
+      <p class="stat-value"><%=stats.dex%></p>
+    </div>
+    <div class="stat-box">
+      <p class="stat-name">Con</p>
+      <p class="stat-value"><%=stats.con%></p>
+    </div>
+    <div class="stat-box">
+      <p class="stat-name">Int</p>
+      <p class="stat-value"><%=stats.int%></p>
+    </div>
+    <div class="stat-box">
+      <p class="stat-name">Wis</p>
+      <p class="stat-value"><%=stats.wis%></p>
+    </div>
+    <div class="stat-box">
+      <p class="stat-name">Cha</p>
+      <p class="stat-value"><%=stats.cha%></p>
+    </div>
   </div>
-  <div class="stat-box">
-    <p class="stat-name">Dex</p>
-    <p class="stat-value"><%=stats.dex%></p>
+  <div class="middle-image">
+    <img id="dragon-icon" src="\images\icons\dragon.jpg" alt="dragon icon" />
   </div>
-  <div class="stat-box">
-    <p class="stat-name">Con</p>
-    <p class="stat-value"><%=stats.con%></p>
-  </div>
-  <div class="stat-box">
-    <p class="stat-name">Int</p>
-    <p class="stat-value"><%=stats.int%></p>
-  </div>
-  <div class="stat-box">
-    <p class="stat-name">Wis</p>
-    <p class="stat-value"><%=stats.wis%></p>
-  </div>
-  <div class="stat-box">
-    <p class="stat-name">Cha</p>
-    <p class="stat-value"><%=stats.cha%></p>
+  <div class="secondary-stat-row">
+    <div class="stat-box">
+      <p class="sec-name">Armour</p>
+      <p class="stat-value"><%=sec.armour%></p>
+    </div>
+    <div class="stat-box">
+      <p class="sec-name">Reflex</p>
+      <p class="stat-value"><%=sec.reflex%></p>
+    </div>
+    <div class="stat-box">
+      <p class="sec-name">Willpower</p>
+      <p class="stat-value"><%=sec.willpower%></p>
+    </div>
+    <div class="stat-box">
+      <p class="sec-name">Toughness</p>
+      <p class="stat-value"><%=sec.toughness%></p>
+    </div>
+    <div class="stat-box">
+      <p class="sec-name">Melee</p>
+      <p class="stat-value"><%=sec.melee%></p>
+    </div>
+    <div class="stat-box">
+      <p class="sec-name">Range</p>
+      <p class="stat-value"><%=sec.range%></p>
+    </div>
   </div>
 </div>
 
 <div class="orange-divider"></div>
 
-<div class="skill-block">
-  <div class="skill-box">
-    <h2>Skills</h2>
-    <ul>
-      <li><%=skills.skill1%></li>
-    </ul>
-    <ul>
-      <li><%=skills.skill2%></li>
-    </ul>
-    <ul>
-      <li><%=skills.skill3%></li>
-    </ul>
-    <ul>
-      <li><%=skills.skill4%></li>
-    </ul>
+<div class="lower-block">
+  <div class="skill-block">
+    <div class="skill-box">
+      <h2>Skills</h2>
+      <ul>
+        <li><%=skills.skill1%></li>
+      </ul>
+      <ul>
+        <li><%=skills.skill2%></li>
+      </ul>
+      <ul>
+        <li><%=skills.skill3%></li>
+      </ul>
+      <ul>
+        <li><%=skills.skill4%></li>
+      </ul>
+    </div>
+    <div class="skill-box">
+      <h2>Feats</h2>
+      <ul>
+        <li><%=feats.feat1%></li>
+      </ul>
+      <ul>
+        <li><%=feats.feat2%></li>
+      </ul>
+      <ul>
+        <li><%=feats.feat3%></li>
+      </ul>
+      <ul>
+        <li><%=feats.feat4%></li>
+      </ul>
+    </div>
+    <div class="skill-box">
+      <h2>Powers</h2>
+      <ul>
+        <li><%=powers.power1%></li>
+      </ul>
+      <ul>
+        <li><%=powers.power2%></li>
+      </ul>
+      <ul>
+        <li><%=powers.power3%></li>
+      </ul>
+      <ul>
+        <li><%=powers.power4%></li>
+      </ul>
+    </div>
   </div>
-  <div class="skill-box">
-    <h2>Feats</h2>
-    <ul>
-      <li><%=feats.feat1%></li>
-    </ul>
-    <ul>
-      <li><%=feats.feat2%></li>
-    </ul>
-    <ul>
-      <li><%=feats.feat3%></li>
-    </ul>
-    <ul>
-      <li><%=feats.feat4%></li>
-    </ul>
-  </div>
-  <div class="skill-box">
-    <h2>Powers</h2>
-    <ul>
-      <li><%=powers.power1%></li>
-    </ul>
-    <ul>
-      <li><%=powers.power2%></li>
-    </ul>
-    <ul>
-      <li><%=powers.power3%></li>
-    </ul>
-    <ul>
-      <li><%=powers.power4%></li>
-    </ul>
-  </div>
+  <div class="equipment-block"></div>
 </div>
 
 <%- include("partials/footer.ejs") -%>

@@ -1,0 +1,38 @@
+{
+    name: "Morick",
+    bio: bio1,
+    stats: {
+        str: 12,
+        dex: 14,
+        con: 12,
+        int: 10,
+        wis: 12,
+        cha: 08,
+    },
+    skills: {
+        skill1: "Tracking",
+        skill2: "Wilderness survival",
+        skill3: "Trading",
+        skill4: "Repair",
+    },
+    feats: {
+        feat1: "Danger sense",
+        feat2: "Clear vision",
+        feat3: "Snap Shot",
+        feat4: "Stealthy movement",
+    },
+    powers: {
+        power1: "Patient shot",
+        power2: "Bolas",
+        power3: "Throw knife",
+        power4: "Haymaker",
+    },
+    secStat: {
+        armour: 16,
+        reflex: 4,
+        willpower: 2,
+        toughness: 2,
+        melee: 3,
+        range: 5,
+    }
+}
