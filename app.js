@@ -131,6 +131,10 @@ app.get("/characters", (req, res) => {
   });
 });
 
+app.get("/journal", (req, res) => {
+  res.render("journal")
+});
+
 app.listen(3000, () => {
   console.log("listening on port 3000...");
 });

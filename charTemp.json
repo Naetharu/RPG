@@ -1,7 +1,7 @@
 {
-    name: "Morick",
-    bio: bio1,
-    stats: {
+    "name": "Morick",
+    "bio": "bio1",
+    "stats": {
         str: 12,
         dex: 14,
         con: 12,

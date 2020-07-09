@@ -46,7 +46,7 @@
 /* ================================ Body ===============================================*/
 
 .container {
-  padding: 4rem;
+  padding: 2rem 4rem 1rem 4rem;
   display: flex;
 }
 
@@ -179,4 +179,49 @@ li {
   font-family: "Fondamento", cursive;
   font-size: 1.5rem;
   color: black;
+}
+
+/*---------------------------------*/
+
+.journal-container {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  padding-top: 2rem;
+}
+
+.journal-nav {
+  background-color:rgb(255, 162, 75);
+  width: 20%;
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+.journal-body {
+  height: 100%;
+  width: 80%;
+  padding: 0.5rem;
+  padding-right: 4rem;
+  margin-left: 2rem;
+}
+
+.journal-entry {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.journal-divder {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.journal-paragraph {
+  line-height: 1.8rem;
+  background-color: rgb(255, 218, 183);
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
