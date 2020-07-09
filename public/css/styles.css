@@ -1,0 +1,124 @@
+/*============================ Head =================================================*/
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  background: rgb(221, 112, 9);
+}
+
+.nav-left {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  background: rgb(221, 112, 9);
+}
+
+.nav-right {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  background: rgb(221, 112, 9);
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: rgb(255, 162, 75);
+}
+
+/* ================================ Body ===============================================*/
+
+.container {
+  padding: 4rem;
+  display: flex;
+}
+
+.character-picture {
+  height: 8rem;
+  border-radius: 50%;
+  border: 5px solid rgb(221, 112, 9);
+  margin: 2rem;
+  background-color: black;
+}
+
+.content-block {
+  margin-right: 2rem;
+}
+
+h1,
+h2 {
+  font-family: "Fondamento", cursive;
+}
+
+p {
+  text-align: justify;
+}
+
+.orange-divider {
+  height: 1rem;
+  margin: 1rem 4rem 1rem 4rem;
+  background-color: rgb(221, 112, 9);
+}
+
+.top-padding {
+  background-color: white;
+  height: 3rem;
+}
+
+.stat-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stat-box {
+  border: solid 0.2rem rgb(221, 112, 9);
+  width: 6rem;
+  height: 6rem;
+}
+
+.stat-name {
+  font-family: "Fondamento", cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.stat-value {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2px;
+}
+/* ------------------------------------------------------- */
+
+.skill-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skill-box {
+  width: 20%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  text-align: left;
+}

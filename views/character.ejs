@@ -1,0 +1,98 @@
+<%- include("partials/header.ejs") -%>
+
+<div class="container">
+  <div>
+    <img
+      class="character-picture"
+      src="\images\characters\<%=pic%>.jpg"
+      alt="character picture"
+    />
+  </div>
+
+  <div class="content-block">
+    <h1><%= name %></h1>
+
+    <p><%= bio %></p>
+  </div>
+</div>
+
+<div class="orange-divider"></div>
+
+<div class="stat-row">
+  <div class="stat-box">
+    <p class="stat-name">Str</p>
+    <p class="stat-value"><%=stats.str%></p>
+  </div>
+  <div class="stat-box">
+    <p class="stat-name">Dex</p>
+    <p class="stat-value"><%=stats.dex%></p>
+  </div>
+  <div class="stat-box">
+    <p class="stat-name">Con</p>
+    <p class="stat-value"><%=stats.con%></p>
+  </div>
+  <div class="stat-box">
+    <p class="stat-name">Int</p>
+    <p class="stat-value"><%=stats.int%></p>
+  </div>
+  <div class="stat-box">
+    <p class="stat-name">Wis</p>
+    <p class="stat-value"><%=stats.wis%></p>
+  </div>
+  <div class="stat-box">
+    <p class="stat-name">Cha</p>
+    <p class="stat-value"><%=stats.cha%></p>
+  </div>
+</div>
+
+<div class="orange-divider"></div>
+
+<div class="skill-block">
+  <div class="skill-box">
+    <h2>Skills</h2>
+    <ul>
+      <li><%=skills.skill1%></li>
+    </ul>
+    <ul>
+      <li><%=skills.skill2%></li>
+    </ul>
+    <ul>
+      <li><%=skills.skill3%></li>
+    </ul>
+    <ul>
+      <li><%=skills.skill4%></li>
+    </ul>
+  </div>
+  <div class="skill-box">
+    <h2>Feats</h2>
+    <ul>
+      <li><%=feats.feat1%></li>
+    </ul>
+    <ul>
+      <li><%=feats.feat2%></li>
+    </ul>
+    <ul>
+      <li><%=feats.feat3%></li>
+    </ul>
+    <ul>
+      <li><%=feats.feat4%></li>
+    </ul>
+  </div>
+  <div class="skill-box">
+    <h2>Powers</h2>
+    <ul>
+      <li><%=powers.power1%></li>
+    </ul>
+    <ul>
+      <li><%=powers.power2%></li>
+    </ul>
+    <ul>
+      <li><%=powers.power3%></li>
+    </ul>
+    <ul>
+      <li><%=powers.power4%></li>
+    </ul>
+  </div>
+</div>
+
+<%- include("partials/footer.ejs") -%>
